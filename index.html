@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Walid Voyages — Long Motion Film</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="film">
+
+  <!-- S1 INTRO LOGO -->
+  <section class="scene s1 active">
+    <div class="bg-sky"></div>
+    <div class="intro-grid"></div>
+    <div class="glow glow1"></div><div class="glow glow2"></div>
+    <div class="ring r1"></div><div class="ring r2"></div>
+    <img src="walid-logo.jpg" class="logo intro-logo">
+    <div class="shine"></div>
+    <div class="intro-txt">
+      <span>WALID VOYAGES</span>
+      <strong>سفرتك تبدأ من هنا</strong>
+    </div>
+  </section>
+
+  <!-- S2 HOME + SERVICES -->
+  <section class="scene s2">
+    <div class="bg-soft"></div>
+    <div class="headline">كل شيء في بلاصة وحدة</div>
+    <div class="service-row">
+      <div class="service-card c1">✈<span>Vols</span></div>
+      <div class="service-card c2">🏨<span>Hôtels</span></div>
+      <div class="service-card c3">🕋<span>Omra</span></div>
+      <div class="service-card c4">🧭<span>Voyages</span></div>
+    </div>
+    <div class="browser home-browser">
+      <div class="browser-top"><i></i><i></i><i></i></div>
+      <img src="walid-home.png">
+    </div>
+  </section>
+
+  <!-- S3 HOTEL SEARCH -->
+  <section class="scene s3">
+    <div class="bg-soft"></div>
+    <div class="scene-title">نبدأو بالـ Hotels</div>
+    <div class="search-zone">
+      <div class="searchbar">
+        <span>⌕</span>
+        <div id="hotelSearchText" class="typing"></div>
+        <button id="hotelSearchBtn">إبحث</button>
+      </div>
+      <div class="cursor cursor1">➤</div>
+    </div>
+    <div class="persona-wrap">
+      <div class="persona">👩<span>Hammamet</span></div>
+      <div class="persona">👨‍👩‍👧<span>2 adultes</span></div>
+      <div class="persona">🌙<span>2 nuits</span></div>
+    </div>
+  </section>
+
+  <!-- S4 HOTEL RESULTS LOADING -->
+  <section class="scene s4">
+    <div class="bg-dark"></div>
+    <div class="loading-card">
+      <div class="magnify">⌕</div>
+      <strong>نلوّجو على أفضل العروض...</strong>
+      <div class="loader"><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="result-browser browser">
+      <div class="browser-top"><i></i><i></i><i></i></div>
+      <img src="walid-hotels.png">
+    </div>
+  </section>
+
+  <!-- S5 HOTEL RESULTS CARDS -->
+  <section class="scene s5">
+    <div class="bg-soft"></div>
+    <div class="scene-title">النتائج وصلت</div>
+    <div class="cards-row">
+      <div class="hotel-card h1">
+        <div class="thumb t1"></div>
+        <b>Hotel 1</b><span>Hammamet</span><strong>245 DT</strong>
+      </div>
+      <div class="hotel-card h2 cheapest">
+        <div class="best-badge">أرخص عرض</div>
+        <div class="thumb t2"></div>
+        <b>Hotel 2</b><span>Hammamet</span><strong>189 DT</strong>
+      </div>
+      <div class="hotel-card h3">
+        <div class="thumb t3"></div>
+        <b>Hotel 3</b><span>Hammamet</span><strong>310 DT</strong>
+      </div>
+    </div>
+    <div class="cursor cursor2">➤</div>
+  </section>
+
+  <!-- S6 HOTEL SELECTED -->
+  <section class="scene s6">
+    <div class="bg-soft"></div>
+    <div class="selected-wrap">
+      <div class="selected-card">
+        <div class="check">✓</div>
+        <span>تم اختيار العرض</span>
+        <strong>Hotel 2 — 189 DT</strong>
+        <small>Hammamet • 2 adultes • 2 nuits</small>
+      </div>
+      <div class="route-line"><i></i></div>
+      <div class="next-step">نكملو الحجز</div>
+    </div>
+  </section>
+
+  <!-- S7 PERSONAL INFO -->
+  <section class="scene s7">
+    <div class="bg-soft"></div>
+    <div class="scene-title">عمر معلوماتك</div>
+    <div class="form-card">
+      <div class="field"><small>Nom & Prénom</small><strong id="nameF"></strong></div>
+      <div class="field"><small>Email</small><strong id="emailF"></strong></div>
+      <div class="field"><small>Téléphone</small><strong id="phoneF"></strong></div>
+      <div class="field"><small>Nombre de voyageurs</small><strong id="paxF"></strong></div>
+      <button class="continue-btn">Continuer</button>
+    </div>
+  </section>
+
+  <!-- S8 PAYMENT INTRO -->
+  <section class="scene s8">
+    <div class="bg-payment"></div>
+    <div class="pay-title">الدفع عبر الإنترنت</div>
+    <div class="secure-ring">
+      <div class="lock">🔒</div>
+    </div>
+    <div class="pay-sub">سريع • واضح • آمن</div>
+  </section>
+
+  <!-- S9 PAYMENT FORM -->
+  <section class="scene s9">
+    <div class="bg-soft"></div>
+    <div class="payment-layout">
+      <div class="summary-card">
+        <span>Votre réservation</span>
+        <strong>Hotel 2 — Hammamet</strong>
+        <b>189 DT</b>
+      </div>
+      <div class="card-pay">
+        <div class="cc-number" id="ccNum"></div>
+        <div class="cc-row">
+          <div><small>EXP</small><strong id="expF"></strong></div>
+          <div><small>CVV</small><strong id="cvvF"></strong></div>
+        </div>
+        <button class="pay-btn">Payer maintenant</button>
+      </div>
+      <div class="cursor cursor3">➤</div>
+    </div>
+  </section>
+
+  <!-- S10 PAYMENT SUCCESS -->
+  <section class="scene s10">
+    <div class="bg-success"></div>
+    <div class="success-wrap">
+      <div class="success-check">✓</div>
+      <strong>Paiement confirmé</strong>
+      <span>Votre réservation est validée</span>
+    </div>
+  </section>
+
+  <!-- S11 TICKET -->
+  <section class="scene s11">
+    <div class="bg-soft"></div>
+    <div class="ticket-title">وتستلم الـ confirmation مباشرة</div>
+    <div class="ticket">
+      <div class="ticket-left">
+        <img src="walid-logo.jpg">
+        <span>Hotel Booking</span>
+        <strong>Hammamet</strong>
+        <small>2 adultes • 2 nuits</small>
+      </div>
+      <div class="ticket-right">
+        <div class="qr">▦</div>
+        <span>CONFIRMED</span>
+      </div>
+    </div>
+    <div class="download-bubble">📩 Confirmation envoyée</div>
+  </section>
+
+  <!-- S12 TRANSITION TO FLIGHTS -->
+  <section class="scene s12">
+    <div class="bg-sky"></div>
+    <div class="flight-transition-title">توا نمشيو للـ Vols</div>
+    <img src="plane.svg" class="plane transition-plane">
+    <div class="cloud cloud1"></div><div class="cloud cloud2"></div>
+  </section>
+
+  <!-- S13 FLIGHT PAGE -->
+  <section class="scene s13">
+    <div class="bg-dark"></div>
+    <div class="flight-screen browser">
+      <div class="browser-top"><i></i><i></i><i></i></div>
+      <img src="walid-flights.png">
+    </div>
+    <div class="flight-caption">اختار الوجهة وعبّي المعلومات</div>
+  </section>
+
+  <!-- S14 FLIGHT SEARCH FORM -->
+  <section class="scene s14">
+    <div class="bg-soft"></div>
+    <div class="scene-title">Recherche Vol</div>
+    <div class="flight-form">
+      <div class="field"><small>De</small><strong id="fromF"></strong></div>
+      <div class="field"><small>À</small><strong id="toF"></strong></div>
+      <div class="field"><small>Départ</small><strong id="depF"></strong></div>
+      <div class="field"><small>Voyageurs</small><strong id="travF"></strong></div>
+      <button class="flight-search-btn">Recherche</button>
+    </div>
+    <img src="plane.svg" class="plane mini-flight-plane">
+  </section>
+
+  <!-- S15 FLIGHT LOADING -->
+  <section class="scene s15">
+    <div class="bg-dark"></div>
+    <div class="loading-card flight-load">
+      <div class="magnify">✈</div>
+      <strong>نقارن في الرحلات والأسعار...</strong>
+      <div class="loader"><i></i><i></i><i></i><i></i></div>
+    </div>
+  </section>
+
+  <!-- S16 FLIGHT RESULTS -->
+  <section class="scene s16">
+    <div class="bg-soft"></div>
+    <div class="scene-title">الرحلات المتوفرة</div>
+    <div class="flight-results">
+      <div class="flight-result">
+        <span>TUN → PAR</span><small>08:30 • Direct</small><strong>980 DT</strong>
+      </div>
+      <div class="flight-result best-flight">
+        <div class="best-badge">الأرخص</div>
+        <span>TUN → PAR</span><small>11:40 • Direct</small><strong>749 DT</strong>
+      </div>
+      <div class="flight-result">
+        <span>TUN → PAR</span><small>16:10 • 1 escale</small><strong>860 DT</strong>
+      </div>
+    </div>
+    <div class="cursor cursor4">➤</div>
+  </section>
+
+  <!-- S17 PAYMENT GLOBAL -->
+  <section class="scene s17">
+    <div class="bg-payment"></div>
+    <div class="pay-title small-pay-title">Vol + Hotel + Paiement online</div>
+    <div class="payment-icons">
+      <div>VISA</div>
+      <div>Mastercard</div>
+      <div>🔒</div>
+      <div>✓</div>
+    </div>
+    <div class="pay-sub">كل شيء من نفس الموقع</div>
+  </section>
+
+  <!-- S18 FINAL -->
+  <section class="scene s18">
+    <div class="endbg"></div>
+    <div class="orbit o1"></div><div class="orbit o2"></div>
+    <img src="walid-logo.jpg" class="logo end-logo">
+    <div class="final-copy">
+      <span>إحجز سفرتك</span>
+      <strong>www.walid-voyages.com</strong>
+      <div class="numbers" dir="ltr">58 150 699 • 73 201 660</div>
+    </div>
+  </section>
+
+  <div class="timeline"><i id="timelineBar"></i></div>
+  <button class="replay" id="replay">↻</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

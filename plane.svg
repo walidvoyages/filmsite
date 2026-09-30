@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360">
+<defs>
+  <linearGradient id="fuse" x1="0" x2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="0.4" stop-color="#dce6ee"/>
+    <stop offset="0.7" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#b8c7d1"/>
+  </linearGradient>
+  <linearGradient id="wing" x1="0" x2="1">
+    <stop offset="0" stop-color="#e6eef3"/>
+    <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="blue" x1="0" x2="1">
+    <stop offset="0" stop-color="#0b86c9"/>
+    <stop offset="1" stop-color="#07a8d9"/>
+  </linearGradient>
+  <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+    <feDropShadow dx="0" dy="18" stdDeviation="14" flood-opacity=".26"/>
+  </filter>
+</defs>
+<g filter="url(#shadow)">
+  <path d="M90 190 C195 155 420 143 720 150 C825 152 905 160 960 173 C982 178 985 194 960 202 C910 218 825 225 710 225 C520 225 250 214 110 205 C70 202 56 196 90 190Z" fill="url(#fuse)" stroke="#adbbc5" stroke-width="3"/>
+  <path d="M350 174 L140 55 L210 45 L455 165 Z" fill="url(#wing)" stroke="#adbbc5" stroke-width="3"/>
+  <path d="M520 173 L760 88 L818 98 L605 187 Z" fill="url(#wing)" stroke="#adbbc5" stroke-width="3"/>
+  <path d="M770 157 L855 76 L896 81 L840 168 Z" fill="#e8eff4" stroke="#adbbc5" stroke-width="3"/>
+  <path d="M756 196 L863 243 L826 253 L690 212 Z" fill="#e6edf3" stroke="#adbbc5" stroke-width="3"/>
+  <ellipse cx="450" cy="198" rx="44" ry="34" fill="#344a59"/>
+  <ellipse cx="450" cy="198" rx="26" ry="21" fill="#12222e"/>
+  <ellipse cx="674" cy="199" rx="44" ry="34" fill="#344a59"/>
+  <ellipse cx="674" cy="199" rx="26" ry="21" fill="#12222e"/>
+  <path d="M700 151 C760 152 820 157 860 162 L838 188 C790 188 747 186 705 184 Z" fill="url(#blue)"/>
+  <path d="M820 98 L865 84 L890 89 L850 143 L820 142 Z" fill="#78a92d"/>
+  <g fill="#274a60">
+    <circle cx="740" cy="171" r="5"/><circle cx="762" cy="171" r="5"/><circle cx="784" cy="172" r="5"/>
+    <circle cx="806" cy="172" r="5"/><circle cx="828" cy="173" r="5"/>
+  </g>
+  <path d="M110 192 C128 183 154 178 183 175 C171 191 170 203 180 214 C153 210 132 206 109 201 Z" fill="#e4edf2"/>
+  <path d="M122 189 C139 183 157 180 176 179" stroke="#233f50" stroke-linecap="round" stroke-width="5"/>
+</g>
+</svg>
